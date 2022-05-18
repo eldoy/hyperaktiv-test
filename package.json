@@ -1,0 +1,22 @@
+{
+  "name": "hyperaktiv-test",
+  "version": "0.1.0",
+  "description": "Experiment for reactive HTML with hyperaktiv",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "dev": "WAVEORB_PORT=5600 nodemon -e js,mjs,json,yml,css,md -i dist -x waveorb serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eldoy/hyperaktiv-test"
+  },
+  "author": "Vidar Eldøy <vidar@eldoy.com>",
+  "license": "WTFPL",
+  "devDependencies": {
+    "waveorb": "^0.30.10"
+  },
+  "dependencies": {
+    "hyperaktiv": "^0.1.1"
+  }
+}
